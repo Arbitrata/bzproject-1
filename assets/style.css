@@ -1,0 +1,184 @@
+.page{
+    padding: 10px;
+    padding-left: 10px;
+    height: max-content;
+border-bottom: 0px;
+padding-left: 100px;
+}
+.menu{
+    float: left;padding: 20px;
+}
+.nav{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    border-radius: 1%;
+    top: 20px;
+}
+.sidenav{
+    height: fit-content;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    overflow-x:hidden;
+    background-color: aliceblue;
+    line-height: 30px;
+    border-bottom: 3px solid white;
+}
+.sidenav a{
+    color: black;
+padding: 1px 20px  0px;
+text-decoration: none;
+display:block;
+transition: 0s;
+border-bottom: 1px solid white;
+}
+.sidenav a:hover{
+   color:red;
+    }
+    .sidenav .closebtn{
+        position: absolute;
+        size: 20px;
+        float: right;
+        margin-top: 10px;
+        right: 1px;
+        color: blue;
+        background-color: red;
+        border-radius: 50%;
+    }
+    
+.nav h1{
+    color: white;
+    font-weight:bold;
+    font-size: 30px;
+}.category{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding-left: 10px;
+
+}
+.image{
+    float: right;
+width: 300px;
+height:fit-content;
+margin-top: 50px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    border-radius: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer2{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-top: -2px solid black;
+
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+    .body{
+    justify-content: space-around;
+    }
+    .category{
+        display: block;
+        background-color: lightblue;
+        width: 100vw;
+        height: 600px;
+   
+    }
+    .image{
+    display: none;
+width: 110px;
+float: left;
+}
+
+.nav{
+    display: flex;
+    background-color:black;
+    width: 120;
+    padding-top: 0px;
+    text-align: center;
+
+}
+.nav h1{
+    color:white;
+    font-size: 15px;
+} 
+.box1{
+    display: block;
+}
+.category div{
+ width: 100px;
+ height: 100px;       
+}
+.box2{
+    display: block;
+    width: 100vw;
+}
+.box3{
+    display: block;
+    width: 100vw;
+}
+.footer2{
+    background-color: lightblue;
+    border-spacing: 10px;
+}
+.icons{
+    background-color: lightblue;
+    width: 40px;
+    padding-right: 50px;
+    display: block;
+    bottom: 0px;
+} 
+.icons h4{
+ display: none;
+} 
+ .center{
+    
+     display: none;
+ }
+ .join {
+    font-size: 20px;
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+    background-color:black;
+}
+
+.page{
+    vertical-align: middle;
+}
+.footer{
+    display: block;
+    background-color: lightblue;
+    justify-content: center;
+    bottom: 0px;
+
+}
+
+}
